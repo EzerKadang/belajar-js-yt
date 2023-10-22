@@ -43,13 +43,13 @@ const body = document.body;
 
 const btnElm1 = document.querySelector(".btn-2");
 
-const name1 = document.createElement("h1");
+const nameElm = document.createElement("h1");
 
 function addName() {
-  name1.innerHTML = "Ezer Kadang";
+  nameElm.innerHTML = "Ezer Kadang";
   body.append(name1);
 }
 
 function cosColor() {
-  name1.style.color = "red";
+  nameElm.style.color = "red";
 }
